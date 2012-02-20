@@ -1,0 +1,6 @@
+name=vtile
+tiledir=/var/lib/mod_tile/vtile
+maxz=18
+mapfile=/usr/local/src/svn/tirex/backend-json/mapink.mapcss
+dbname=gis
+dbuser=gis

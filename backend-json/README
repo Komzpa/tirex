@@ -1,0 +1,6 @@
+This tirex backend provides vector json tiles.
+
+It is based heavily on the code for the kothicJS backend and most of the code is derived from it
+http://code.google.com/p/kothic/
+
+It is licensed GNU GPLv3

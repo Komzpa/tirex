@@ -1,0 +1,35 @@
+#-----------------------------------------------------------------------------
+#
+#  Konfiguration for json tiles
+#
+#  /etc/tirex/renderer/json.conf
+#
+#-----------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------
+#  General configuration
+#-----------------------------------------------------------------------------
+
+#  symbolic name
+name=json
+
+#  path to executable of renderer
+path= /usr/local/src/svn/tirex/backend-json/tirex_wrapper.py
+
+#  UDP port where the master can contact this renderer
+port=9332
+
+#  number of processes that should be started
+procs=1
+
+#  syslog facility
+#syslog_facility=daemon
+
+#  activate this to see debug messages from renderer
+debug=1
+
+#-----------------------------------------------------------------------------
+#  Backend specific configuration
+#-----------------------------------------------------------------------------
+
+#-- THE END ------------------------------------------------------------------
